@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('todos');
+  this.route('custom-header');
+  this.route('custom-footer');
 });
 
 export default Router;
