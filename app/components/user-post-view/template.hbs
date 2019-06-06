@@ -1,0 +1,10 @@
+<table id="todos">
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Body</th>
+    </tr>
+    {{#each model as |post index|}}
+        {{user-post-view/one model=post}}
+    {{/each}}
+</table>

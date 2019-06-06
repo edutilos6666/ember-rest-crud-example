@@ -10,6 +10,10 @@ Router.map(function() {
   this.route('todos');
   this.route('custom-header');
   this.route('custom-footer');
+  this.route('users', function() {
+    this.route('user', {path: "user/:id"});
+  });
+  this.route('comments');
 });
 
 export default Router;

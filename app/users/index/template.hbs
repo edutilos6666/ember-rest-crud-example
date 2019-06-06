@@ -1,0 +1,22 @@
+<table id="todos">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Street</th>
+        <th>Suite</th>
+        <th>City</th>
+        <th>Zipcode</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Phone</th>
+        <th>Website</th>
+        <th>Company Name</th>
+        <th>Company CatchPhrase</th>
+        <th>Company BS</th>
+    </tr>
+    {{#each model as |user index|}}
+        {{user-view model=user}}
+    {{/each}}
+</table>
