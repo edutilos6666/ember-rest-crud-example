@@ -1,3 +1,6 @@
+# jsonplaceholder was used for REST
+https://jsonplaceholder.typicode.com/
+
 # ember-rest-crud-example
 
 This README outlines the details of collaborating on this Ember application.
